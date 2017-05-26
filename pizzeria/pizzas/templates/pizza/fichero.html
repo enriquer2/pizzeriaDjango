@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Prueba de templates
+    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <h1> Prueba de pagina web </h1>
+    <p>
+        Un pequeño ejemplo
+    </p>
+    <ul>
+        <li> Pizzas </li>
+        <li> Ingradientes </li>
+        <li> Commentarios </li>
+        <li> Bebidas </li>
+    </ul>
+
+    <div>
+        <ul>
+            <li><a href="{% url 'index' %}"> Indice </a></li>
+            <li><a href="{% url 'conocenos' %}"> Conocenos </a></li>
+        </ul>
+    </div>
+
+    <div>
+        <button type="button"> Click me for start again </button>
+    </div>
+</body>
+
+</html>

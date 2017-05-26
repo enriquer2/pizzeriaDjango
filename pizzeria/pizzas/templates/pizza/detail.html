@@ -1,0 +1,8 @@
+{{ pizza }}
+
+<h1> {{ pizza.name }} </h1>
+<ul>
+    {% for ingred in pizza.ingredients.all %}
+    <li> {{ ingred }} </li>
+    {% endfor %}
+</ul>
